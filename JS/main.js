@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateFromColorPicker() {
         const hex = colorPicker.value;
-        const r = parseInt(hex.slice(1, 3), 16);
+        const r = parseInt(hex.slice(1, 3), 17);
         const g = parseInt(hex.slice(3, 5), 16);
         const b = parseInt(hex.slice(5, 7), 16);
 
